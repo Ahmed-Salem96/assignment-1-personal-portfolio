@@ -1,0 +1,203 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: rgb(230, 224, 224);
+    width: 65%;
+    margin: auto;
+     border-radius: 25px ;
+     min-height: 100vh;
+     padding-top: 20px;
+  
+}
+.header{
+    background-color: rgb(70, 100, 150);
+    width: 70%;        
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    
+    
+}
+.txtcolorwhite{
+    color: white;  
+}
+.header h1{
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.header p{
+   
+    padding-bottom: 20px;
+}
+.anchorrepeat{
+   background-color: lightblue;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1px;
+    margin-bottom: 20px;
+}
+.header a{
+    background-color: lightblue;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1px;
+    margin-bottom: 20px;
+    /* margin-top: 30px;   laghhet de 3shan ana 3aml padding bottom fe header p f keda k2ni zwdt 30 kman    */ 
+
+    
+
+
+
+
+
+
+
+}
+.aboutme{
+    background-color: aliceblue;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 20px;
+   padding: 30px;
+}
+.aboutme1 {
+    border-bottom: 3px solid rgba(0, 0, 256, 0.3);
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.aboutme .inner img{
+    width: calc(100% / 4);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;  
+     flex-shrink: 0;  
+    /* al 4 lines alli fo2 dol 3shan a5li al sora da2ria w b3d  keda 3shan a5li al sora tmla 
+    flex sshrink btmn3 al soora tnkmsh lma ageb 7aga gnbha*/
+
+}
+.inner{
+    display: flex;
+    align-items: center;
+     gap: 30px;
+     /* gap de btseeb msdafa ben first item w alli gmbha zai al sora wl klam */
+}
+.inner p{
+     line-height: 2;
+     padding-bottom: 20px;
+}
+.darkblue{
+    color: blue;
+}
+
+
+
+
+
+
+
+.card{
+    background-color: rgb(216, 216, 216);
+    width: calc((100% / 4) - 5px);
+    display: inline-block;
+    /* text-align: center; */
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 25px;
+    vertical-align: top;
+    min-height: 150px;
+    /* vertical allign bt5li al cards kolha tbd2 mn nfs al ertfa3
+    w min height 180 mslan bt2olo ebda2 b 22al min height f hytmdd m3ah 7sab al klam w kolo hyb2a nfs al height */
+}
+.card p{
+    padding-top: 20px;
+}
+.card h3{
+    color: rgb(17, 77, 97);
+}
+
+
+
+
+
+
+
+
+
+
+.container1{
+    background-color: rgb(44, 103, 170);
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.container2{
+    background-color: rgb(198, 206, 195); 
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.inner3{
+    display: flex;
+    /* padding: 25px; */
+    gap: 30px;
+    align-items: flex-start;
+    /* al tag da mby5lesh al sora ttmdd m3 al kalam */
+
+}
+.inner3 img{
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    vertical-align: top;
+    /* al tag da by5ali al img w ai 7aga gmbha 3la nfs al line */
+}
+.textpar h3{
+    padding-bottom: 30px;
+  
+}
+.textpar h4{
+    padding-bottom: 20px;
+}
+.container2{
+    padding: 40px;
+}
+.info{
+    padding-top: 30px;
+}
+
+
+
+.contact{
+     background-color: rgb(70, 100, 150);
+     width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 20px;
+   padding: 30px;
+}
+
+.contact p{
+    padding-bottom: 30px;
+}
+
+.rights{
+    background-color: black;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 20px;
+   padding: 30px;
+   text-align: center;
+  
+}
+.white{
+    color: antiquewhite;
+}
